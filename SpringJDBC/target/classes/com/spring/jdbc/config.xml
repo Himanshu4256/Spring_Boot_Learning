@@ -1,0 +1,31 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:context="http://www.springframework.org/schema/context" 
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd 
+ http://www.springframework.org/schema/context 
+ http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+ 2 
+ 	<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource"  name="ds">
+ 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+ 		<property name="url" value="jdbc:mysql://Localhost:3306/springJDBC"/>
+ 		<property name="username" value="root"/>
+ 		<property name="password" value="Hibernate"/>
+ 	</bean> 
+ 
+ 1
+ 	<bean class="org.springframework.jdbc.core.JdbcTemplate" name="jdbcTemplatee">
+ 		<property name="dataSource"> yaha hme dataSource wali property manage krni hai to uska obj baenge But. it's interface to eski class[DirverManagerDataSource] ka obj bnakr dataSource m ref krenge. 
+ 		  <ref bean="ds"/>
+ 		</property>
+ 	</bean>	
+ 	
+ 	
+ 	<bean class="com.spring.jdbc.dao.StudentDaoImpl" name="studentDao">
+ 		<property name="jdbcTemplate" ref="jdbcTemplatee"/> ye property StudentDaoImpl class ka member hai usi ko liya hai
+ 	</bean>
+ 	
+ </beans> -->
