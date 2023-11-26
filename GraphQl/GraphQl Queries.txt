@@ -1,0 +1,26 @@
+
+	|| GRAPHQL QUERIES
+
+# query{
+#     allBooks{
+#         id
+#         title
+#         desc
+#     }
+#     getBook(bookId:1){
+#         id
+#         title
+#         desc
+#     }
+# }
+mutation{
+    createBook(book:{
+        title:"My New Book",
+        desc:"created by graphQl",
+        price:233,
+        pages:422,
+        auther:"Himanshu Sharma"
+    }){
+        id
+    }
+}
