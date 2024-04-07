@@ -1,0 +1,11 @@
+com\omnie\forms\DynamicFormApp.class
+com\omnie\forms\json\FormMetaDataFactory$1.class
+com\omnie\forms\model\FormComponent.class
+com\omnie\forms\model\FormSchema.class
+com\omnie\forms\json\FormMetaDataFactory.class
+com\omnie\forms\model\FormProperty.class
+com\omnie\forms\service\DynamicFormServiceimpl.class
+com\omnie\forms\controller\DynamicFormController.class
+com\omnie\forms\json\ConfigurationFactory.class
+com\omnie\forms\entities\FormComponentRepository.class
+com\omnie\forms\service\DynamicFormService.class
